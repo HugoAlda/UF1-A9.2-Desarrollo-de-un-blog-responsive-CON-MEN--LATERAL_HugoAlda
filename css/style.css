@@ -4,6 +4,22 @@ html{
     font-size: 16px;
 }
 
+/**/
+
+.menu1 {
+    display: flex;
+}
+
+.menu2 {
+    display: flex;    
+}
+
+section > h1 {
+    padding-left: 40px;
+}
+
+/**/
+
 /* Redimensión de fuente utilizando rem */
 p{
     font-size: 1rem;
@@ -77,13 +93,6 @@ body{
     justify-content: center;
 }
 
-header{
-    height: 100vh;
-    background-image: url("../img/brandon-burridge-4o7f9_Z73a4-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
 img{
     width: 100%;
 }
@@ -130,8 +139,12 @@ img{
     background-position: center;
 }
 
-article{
+.article{
     background-color: rgb(227, 227, 227);
+}
+
+.article2 {
+    background-color: white;
 }
 
 a{
